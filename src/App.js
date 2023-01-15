@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import EmployeeList from './components/EmployeeList.js';
+import EmployeeAdd from './components/EmployeeAdd.js';
 
 function App() {
   return (
     <div ClassName="App">
+          <EmployeeAdd/>
+
       <EmployeeList/>
     </div>
   )
